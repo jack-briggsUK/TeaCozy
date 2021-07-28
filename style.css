@@ -1,6 +1,7 @@
 html {
     background-color: black;
     font-family: 'Helvetica';
+    font-size: 22px;
     color: seashell;
     opacity: 0.9;
 }
@@ -8,20 +9,56 @@ html {
 .header {
     display: flex;
     height: 69px;
-    background-color: slateblue;
     padding-left: 10px;
     padding-right: 10px;
+    width: 100%;
     align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
 }
 
 .nav {
-    display: inline-flex;
+    display: flex;
     text-decoration: underline;
+    padding-left: 10px;
+    padding-right: 10px;
     justify-content: flex-end;
+}
+
+.mission {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.featured-tea {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.locations {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .logo {
     display: inline-flex;
     height: 50px;
-    justify-content: flex-start;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-mission {
+    background-image: url("images/img-mission-background.jpeg");
+    height: 700px;
+    width: 1200px;
+}
+
+.mission-statement {
+    background-color: black;
+    text-align: center;
+    justify-items: center;
 }
