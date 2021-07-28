@@ -1,0 +1,27 @@
+html {
+    background-color: black;
+    font-family: 'Helvetica';
+    color: seashell;
+    opacity: 0.9;
+}
+
+.header {
+    display: flex;
+    height: 69px;
+    background-color: slateblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.nav {
+    display: inline-flex;
+    text-decoration: underline;
+    justify-content: flex-end;
+}
+
+.logo {
+    display: inline-flex;
+    height: 50px;
+    justify-content: flex-start;
+}
