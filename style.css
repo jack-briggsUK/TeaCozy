@@ -13,9 +13,15 @@ h5 {
     line-height: 10%;
 }
 
+a {
+    color: seashell;
+}
+
+
 .body {
     justify-content: center;
     opacity: 0.8;
+    padding-top: 70px;
 }
 /* Header Styling */
 
@@ -40,6 +46,7 @@ h5 {
     display: flex;
     justify-content: space-between;
     text-decoration: underline;
+    align-items: center;
 }
 
 .mission {
